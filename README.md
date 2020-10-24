@@ -1,15 +1,3 @@
-<img src="./assets/hero2.png" width="100%">
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fishandeveloper%2FCoursify-hacktoberfest&count_bg=%23CBA4DE&title_bg=%239C4668&icon=hackster.svg&icon_color=%23E7E7E7&title=Hacktoberfest+Hackers&edge_flat=true)](https://github.com/ishandeveloper/Coursify-hacktoberfest)
-
-This repository contains a list of few of the best learning resources out there for developers, which includes video tutorials, articles, blogs, youtube playlists etc.
-
-You can view the current list, live here :
-
-<pre>
-<a href="http://ishandeveloper.com/Coursify-hacktoberfest/">coursify.ishandeveloper.com</a>
-</pre>
-
 
 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1-31 to earn a free t-shirt.**
 
@@ -32,48 +20,6 @@ So, yes! You can win a T-Shirt and few awesome stickers to attach on your laptop
 
 ***
 
-### How To Contribute?
-
-It's very easy. You don't need to be an expert in coding and programming.
-
-If you know a course that will help the other developers please feel free to add it to the website. 
-
-Here are the steps to follow : 
-
-1. Fork this repository by click the Fork button in the top right of this page or just [click here](https://github.com/ishandeveloper/Coursify-hacktoberfest/fork). Feel free to leave a star, if you'd like 
-
-    <img src="./assets/steps/fork.png">
-
-1. Clone the forked repository on your desktop using
-
-    ```    
-    git clone https://github.com/<your-github-username>/Coursify-hacktoberfest
-    ```
-1. Change to the repository directory on your computer (if you are not already there):
-
-    ```
-    cd Coursify-hacktoberfest
-    ```
-
-1. Create & checkout into a new branch `<your-username>` using
-
-    ```
-    git checkout -b <your--github-username>
-    ```
-
-4. Open `courses/data.js` file in your preferred editor.
-
-5. Append your course info in the `data` array by filling out the following JSON Template
-    ```js
-    {
-      name:'Name of the course',
-      instructor: 'Name of course instructor',
-      url:'Link to the course',
-      description:'A short summary about the course',
-      image: '',
-      tags:['Technology', 'Framework']
-    }
-    ```
 
 1. **[Optional]**  You can also add your own custom hero image, by adding the image in `courses\images\` folder and replacing `''` in `image:''` with the name of your image file (including extension).
 
