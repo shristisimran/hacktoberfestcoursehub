@@ -53,3 +53,6 @@ This project uses SASS/SCSS syntax for styling.
 3. Run the SASS compile command from the project root: `sass assets/main.scss assets/main.css`
 4. Confirm your changes on the client and in `assets/main.css`
 5. Commit all of the following files: `assets/main.scss`, `assets/main.css` and `assets/main.css.map`
+
+
+22 first pr
